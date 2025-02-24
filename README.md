@@ -5,7 +5,7 @@ Modular Agent-Based Architecture:
 The system is divided into three core agents:
 
 TicketAnalysisAgent: Uses zero-shot classification (e.g., Facebook’s BART MNLI), sentiment analysis, and summarization pipelines to analyze ticket content.
-ResponseAgent: Employs text generation (e.g., GPT-2/GPT-3) to generate context-aware, personalized responses.
+ResponseAgent: Employs text generation (GPT) to generate context-aware, personalized responses.
 TicketProcessor: Orchestrates the workflow, maintains context, and handles error management.
 Advanced NLP Techniques:
 Leveraging modern NLP and LLM approaches allows the system to:
